@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f4f4f9;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .card-price {
+      font-size: 1.2rem;
+      color: #27ae60;
+      margin: 10px 0;
+    }
+
+    .card-description {
+      font-size: 0.9rem;
+      color: #777;
+      margin: 10px 0;
+    }
+
+    .card-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #3498db;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+.ali:hover{
+scale: 1.1;
+}
+.ahmad:hover{
+    scale: 1.1;
+}
+    .card-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+<div class="ali">
+  <div class="card">
+    <img style="height: 100px ; width: 100px;" src="/12" alt="Product Image">
+    <div class="card-body">
+      <h2 class="card-title">Product Name</h2>
+      <p class="card-price">$22.99</p>
+      <p class="card-description">This is a short description of the product, highlighting its key features.</p>
+      <button class="card-button" onclick="buyNow()">Buy Now</button>
+    </div>
+  </div>
+  <div class="card">
+    <img style="height: 100px ; width: 100px;" src="/ee.jpg" alt="Product Image">
+    <div class="card-body">
+      <h2 class="card-title">Product Name</h2>
+      <p class="card-price">$55.99</p>
+      <p class="card-description">This is a short description of the product, highlighting its key features.</p>
+      <button class="card-button" onclick="buyNow()">Buy Now</button>
+    </div>
+  </div>
+  </div>
+  <div class="ahmad">
+    <div class="card">
+      <img style="height: 100px ; width: 100px;" src="/12.jpg" alt="Product Image">
+      <div class="card-body">
+        <h2 class="card-title">Product Name</h2>
+        <p class="card-price">$99.99</p>
+        <p class="card-description">This is a short description of the product, highlighting its key features.</p>
+        <button class="card-button" onclick="buyNow()">Buy Now</button>
+      </div>
+    </div>
+    <div class="card">
+      <img style="height: 100px ; width: 100px;" src="/dd.jpg" alt="Product Image">
+      <div class="card-body">
+        <h2 class="card-title">Product Name</h2>
+        <p class="card-price">$29.99</p>
+        <p class="card-description">This is a short description of the product, highlighting its key features.</p>
+        <button class="card-button" onclick="buyNow()">Buy Now</button>
+      </div>
+    </div>
+    </div>
+
+  <script>
+    function buyNow() {
+      alert("Thank you for your interest! Redirecting to purchase page.");
+    }
+  </script>
+
+</body>
+</html>

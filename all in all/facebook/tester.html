@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Footers on Right Side</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            width: 300px;
+            position: absolute;
+            right: 0;
+        }
+
+        .footer.large {
+            padding: 40px;
+        }
+
+        .footer h5 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .top-footer {
+            top: 20px;
+        }
+
+        .middle-footer {
+            top: 150px;
+        }
+
+        .bottom-footer {
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Footer -->
+    <div class="footer top-footer">
+        <h5>Top Footer</h5>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+
+    <!-- Middle Footer (Large) -->
+    <div class="footer large middle-footer">
+        <h5>Middle Footer</h5>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer bottom-footer">
+        <h5>Bottom Footer</h5>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+</body>
+</html>
